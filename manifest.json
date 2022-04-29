@@ -1,0 +1,17 @@
+{
+"manifest_version": 3,
+    "name": "Meet Auto Record",
+    "description": "Auto Records Meets",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "run_at":"document_start",
+			"matches": [
+				"https://meet.google.com/*"
+            ],
+            "js": [
+				"js/jquery.js","content.js"
+			]
+        }
+    ]
+}
