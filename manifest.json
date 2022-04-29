@@ -10,7 +10,7 @@
 				"https://meet.google.com/*"
             ],
             "js": [
-				"js/jquery.js","content.js"
+				"jquery.js","content.js"
 			]
         }
     ]
